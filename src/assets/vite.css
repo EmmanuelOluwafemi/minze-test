@@ -1,0 +1,31 @@
+:root {
+  --primary-default: #0B5FFF;
+  --primary-hover: #0053F0;
+  --primary-active: #004AD7;
+  --primary-disabled: rgba(11, 95, 255, 0.5);
+  --white: #ffffff;
+
+  --padding-y-sm: .5rem;
+  --padding-x-sm: .75rem;
+  --padding-y-md: .75rem;
+  --padding-x-md: 1rem;
+  --padding-y-lg: .875rem;
+  --padding-x-lg: 1.125rem;
+
+  --border-radius: .4rem;
+
+  --font-size-sm: .875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  padding: 1rem;
+  margin: 0;
+}
